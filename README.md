@@ -1,7 +1,8 @@
 # <lasercut.scad>
 Module for openscad, allowing 3d models to be created from 2d lasercut parts, with a flat file automatically generated.
 
-Updated, not just lasercut can now pass the parameter milling_bit for CNC machines, for the bit to cut in to the corners. 
+I recommend creating a symbolic link in your OpenSCAD libraries folder pointing to wherever you clone this repository to. e.g.
+mklink /D C:\users\alast\Documents\OpenSCAD\libraries\lasercut c:\users\alast\documents\github\openscad-lasercut
 
 ## Basic usage
 
